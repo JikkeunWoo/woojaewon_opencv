@@ -1,0 +1,176 @@
+11월 30, 2022 3:35:50 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+11월 30, 2022 3:35:50 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/tesseract, kor.monospaced.exp0.tif, kor.monospaced.exp0, box.train]
+11월 30, 2022 3:35:51 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:35:51 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/tesseract, vie.arial.exp0.tif, vie.arial.exp0, box.train]
+11월 30, 2022 3:35:54 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:35:54 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/tesseract, vie.times.exp0.tif, vie.times.exp0, box.train]
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/unicharset_extractor, kor.monospaced.exp0.box, vie.arial.exp0.box, vie.times.exp0.box]
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\User\Desktop\jTessBoxEditor\samples\vie]
+11월 30, 2022 3:36:00 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:01 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+11월 30, 2022 3:36:01 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/shapeclustering, -F, kor.font_properties, -U, unicharset, kor.monospaced.exp0.tr, vie.arial.exp0.tr, vie.times.exp0.tr]
+11월 30, 2022 3:36:04 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:04 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+11월 30, 2022 3:36:04 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/mftraining, -F, kor.font_properties, -U, unicharset, -O, kor.unicharset, kor.monospaced.exp0.tr, vie.arial.exp0.tr, vie.times.exp0.tr]
+11월 30, 2022 3:36:09 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:09 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+11월 30, 2022 3:36:09 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/cntraining, kor.monospaced.exp0.tr, vie.arial.exp0.tr, vie.times.exp0.tr]
+11월 30, 2022 3:36:10 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:10 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+11월 30, 2022 3:36:10 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+11월 30, 2022 3:36:10 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.frequent_words_list, kor.freq-dawg, kor.unicharset]
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.words_list, kor.word-dawg, kor.unicharset]
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/combine_tessdata, kor.]
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+11월 30, 2022 3:36:11 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
+11월 30, 2022 4:10:11 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+11월 30, 2022 4:10:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/tesseract, kor.굴림.exp0.tif, kor.굴림.exp0, box.train]
+11월 30, 2022 4:12:19 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:12:19 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+11월 30, 2022 4:12:19 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/unicharset_extractor, kor.굴림.exp0.box]
+11월 30, 2022 4:12:20 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:12:20 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\User\Desktop]
+11월 30, 2022 4:12:20 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:12:20 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+11월 30, 2022 4:12:20 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/shapeclustering, -F, kor.font_properties, -U, unicharset, kor.굴림.exp0.tr]
+11월 30, 2022 4:31:54 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:31:54 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+11월 30, 2022 4:31:54 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/mftraining, -F, kor.font_properties, -U, unicharset, -O, kor.unicharset, kor.굴림.exp0.tr]
+11월 30, 2022 4:32:05 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:32:05 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+11월 30, 2022 4:32:05 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/cntraining, kor.굴림.exp0.tr]
+11월 30, 2022 4:32:10 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:32:10 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+11월 30, 2022 4:32:10 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+11월 30, 2022 4:32:10 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.frequent_words_list, kor.freq-dawg, kor.unicharset]
+11월 30, 2022 4:32:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:32:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.words_list, kor.word-dawg, kor.unicharset]
+11월 30, 2022 4:32:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:32:11 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+11월 30, 2022 4:32:11 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/combine_tessdata, kor.]
+11월 30, 2022 4:32:12 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:32:12 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+11월 30, 2022 4:32:12 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
+11월 30, 2022 4:45:03 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+11월 30, 2022 4:45:03 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/tesseract, kor.굴림.exp0.tif, kor.굴림.exp0, box.train]
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/unicharset_extractor, kor.굴림.exp0.box]
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\User\Desktop]
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+11월 30, 2022 4:45:52 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/shapeclustering, -F, kor.font_properties, -U, unicharset, kor.굴림.exp0.tr]
+11월 30, 2022 4:46:16 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:16 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+11월 30, 2022 4:46:16 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/mftraining, -F, kor.font_properties, -U, unicharset, -O, kor.unicharset, kor.굴림.exp0.tr]
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/cntraining, kor.굴림.exp0.tr]
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.frequent_words_list, kor.freq-dawg, kor.unicharset]
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/wordlist2dawg, kor.words_list, kor.word-dawg, kor.unicharset]
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Users\User\Desktop\jTessBoxEditor\tesseract-ocr/combine_tessdata, kor.]
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+11월 30, 2022 4:46:18 오전 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
