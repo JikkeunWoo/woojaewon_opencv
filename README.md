@@ -51,7 +51,9 @@ wjw_letter_opencv.proj 은 하나의 사진파일에서 글자인식을 하는 o
 wjw_opencv_proj은 전체 내용을 포함하며 프로젝트에서 실행하는 파일이다.
 사진 입력, 다른 부분 감지, 위의 글자인식 내용까지 포함한 내용을 가지고 있는 python file 이다.
 
--실행 방법- //wjw_opencv_proj.py의 가장 아래 주석으로도 포함되어 있다.
+-실행 방법- 
+
+//wjw_opencv_proj.py의 가장 아래 주석으로도 포함되어 있다.
 
 * 1. 윈도우 기준 , windows 키 + r 을 누르고, 확인을 눌러 cmd 창 실행 
 * 2. ' cd C:\Python310\wjw_opencv_proj ' 입력 (파일 경로 입력)
