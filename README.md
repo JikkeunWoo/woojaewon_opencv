@@ -58,7 +58,7 @@ wjw_opencv_proj은 전체 내용을 포함하며 프로젝트에서 실행하는
 * 3. ' wjw_opencv_proj.py before.jpg after.jpg ' 입력 (실행할 파일,책 대여 이전 이후 사진 및 ocr 결과 출력)
 
 사진 하나만 넣고, 글자 인식 부분만 수행하길 원하는 경우
-# 'wjw_letter_opencv_proj.py' 입력 (지정된 사진의 ocr 원할 경우 실행. 이 프로젝트에선 사용하지 않음)
+* 'wjw_letter_opencv_proj.py' 입력 (지정된 사진의 ocr 원할 경우 실행. 이 프로젝트에선 사용하지 않음)
 
 원활한 이해를 위해 tesseract, cv2 jTessBoxEditor 에 대해 알아둔다.
 나머지 내용은 code에 첨부된 주석에 설명해 두었다.
